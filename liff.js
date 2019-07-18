@@ -48,9 +48,9 @@ function uiToggleLedButton(state) {
 
 function uiCountPressButton() {
     clickCount++;
-
+    
     const el = document.getElementById("click-count");
-    el.innerText = clickCount;
+    el.innerText = "5"; //clickCount;
 }
 
 function uiToggleStateButton(pressed) {
